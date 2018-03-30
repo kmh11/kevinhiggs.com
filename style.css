@@ -21,35 +21,43 @@ h1, h2, h3, h4, h5, h6, footer {
 
 h1 {
 	font-size: 5em;
-	background-color: yellow;
+	background-color: #f80c12
 }
 
 h2 {
 	font-size: 2.5em;
-	background-color: orange;
+	background-color: #ff9933;
 }
 
 h3 {
 	font-size: 2em;
-	background-color: red;
+	background-color: #fcd746;
 }
 
 h3.secondary {
-	background-color: purple;
+	background-color: #69d025;
+}
+
+h3.tertiary {
+	background-color: #12bdb9;
 }
 
 h3:last-of-type {
-	background-color: green;
+	background-color: #442299;
 }
 
 .group, .group h4 {
-	background-color: #ffef62;
+	background-color: #f7cd25;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
 
 .secondary, .secondary h4 {
-	background-color: lightblue;
+	background-color: #53af16;
+}
+
+.tertiary, .tertiary h4 {
+	background-color: #11aabb;
 }
 
 h4 {
@@ -72,13 +80,13 @@ h4:hover {
 	font-size: 0.9em;
 	font-family: "Roboto Slab", serif;
 	display: inline;
-	color: gray;
+	color: #2E4053;
 	padding-left: 0.5em;
 }
 
 footer {
 	padding: 0;
-	background: lightblue;
+	background: #11aabb;
 	color: white;
 	font-size: 1.5em;
 	flex: 1 1 auto;

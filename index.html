@@ -2,37 +2,37 @@
 <html>
 	<head>
 		<title>Kevin Higgs</title>
-		<meta name="description" content="Cybersecurity enthusiast, web developer, and high school student.">
-		<meta charset="UTF-8">
-		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
-		<link rel="stylesheet" href="style.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+		body {background-image: url("81f.gif");}
+		* {
+			color: white;
+			text-align: center;
+		}
+		#car1 {
+			position: absolute;
+			top: 5em;
+			left: -100px;
+		}
+	</style>
 	</head>
-	<body onload="document.getElementById('hue').value = 47">
-		<div class="header"><h1>Kevin Higgs</h1><input oninput="update()" min="0" max="360" value="47" type="range" id="hue"></div>
-		<h2>Cybersecurity enthusiast, web developer, and high school student.</h2>
-		<h3>Projects</h3>
-		<span class="group">
-			<a class="u" href="https://keyster.io"><h4>Keyster <div class="description">A simple, secure password manager. Winner of MD-08 Congressional App Challenge.</div></h4></a>
-			<a class="u" href="https://angstromctf.com"><h4>ångstromCTF <div class="description">An online cybersecurity competition for high schoolers. Over 1500 participating teams.</div></h4></a>
-			<a class="u" href="https://github.com/blairsec/ctfjs"><h4>ctf.js <div class="description">A framework for running CTFs (online cybersecurity competitions). In development for ångstromCTF 2019.</div></h4></a>
-		</span>
-		<h3 class="secondary">Favorites</h3>
-		<span class="secondary group">
-			<a class="u" href="https://open.spotify.com/user/kmh117"><h4>Music <div class="description">P-Funk by Parliament, Don't Come Around Here No More by Tom Petty, Good Old Days by "Weird Al" Yankovic</div></h4></a>
-			<h4>Movies <div class="description">Monty Python and the Holy Grail, 2001: A Space Odyssey, All The President's Men</div></h4>
-		</span>
-		<h3 class="tertiary">Find Me Online</h3>
-		<span class="tertiary group">
-			<a class="u" href="https://github.com/kmh11"><h4>GitHub <div class="description">My open source projects.</div></h4></a>
-			<a class="u" href="https://keybase.io/kmh"><h4>Keybase <div class="description">My publicly verifiable identity.</div></h4></a>
-			<a class="u" href="https://www.flickr.com/photos/kevin117/"><h4>Flickr <div class="description">Photos I've taken.</div></h4></a>
-		</span>
-		<footer>
-		</footer>
-		<h3>&copy; 2018 Kevin Higgs</h3>
+	<body>
+		<h1>Kevin Higs's Homepage on the World Wide web</h1>
+		<hr>
+		<p>Welcome to my website. You will find many cool thing's here.</p>
+		<h2 style="color:red">NOTICE:sometimes the Car runs away and does not come back (ever!!!!) I'm still looking for a fix SORRY</h2>
+		<img src="party.gif">
+		<h4>This page is so fancy its like a party!!!! :)))</h4>
+		<h2>All about Me</h2>
+		<img src="const2.gif">
+		<h4>STill working on this part..please check back later!! But hopefuly you like the car LOL</h4>
+		<img src="car.gif" id="car1">
 		<script>
-			function update() { document.body.style.setProperty("--hue", document.getElementById("hue").value) }
+			var car1X = -500
+			function moveCar1() {
+				car1X += 5
+				car1.style.left = car1X + 'px'
+			}
+			setInterval(moveCar1, 100)
 		</script>
 	</body>
 </html>
